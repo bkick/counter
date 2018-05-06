@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>counter</title>
+	<style type="text/css" media="screen">
+		h1{
+			text-align: center;
+			font-family:"veranda", sans-serif;
+			font-size:28px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Counter</h1>
+	<p>Visits:{{session['counter']}}</p>
+	<form action='reset' method='post'>
+        <input type='submit' value='reset'>
+    </form>
+    <form action='2' method='post'>
+        <input type='submit' value='add 2 visits'>
+    </form>
+</body>
+</html>
